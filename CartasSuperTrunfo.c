@@ -22,6 +22,7 @@ int main() {
 
     char estado [50];
     char carta1 [50];
+    char codigo [50];
     char cidade [50];
     int populacao;
     float area;
@@ -37,6 +38,9 @@ int main() {
     printf ("Digite a cidade: \n");
     scanf ("%s", cidade);
 
+    printf ("Codico da cidade: \n");
+    scanf ("%s", codigo);
+
     printf ("População: \n");
     scanf ("%d", &populacao);
 
@@ -51,7 +55,7 @@ int main() {
 
     // Exibe os dados informados
 
-    printf("Nome do estado: %s\nCarta: %s\nNome da cidade: %s\n", estado, carta1, cidade);
+    printf("Nome do estado: %s\nCarta: %s\nNome da cidade: %s\nCodigo: %s\n", estado, carta1, codigo, cidade);
     printf ("Populacao: %d\nArea: %f\nPib: %f\nPontos turisticos: %d\n", populacao, area, pib, turisticos);
 
      
