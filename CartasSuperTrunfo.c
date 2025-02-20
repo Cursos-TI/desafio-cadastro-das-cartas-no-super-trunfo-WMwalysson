@@ -52,7 +52,7 @@ int main() {
     // Exibe os dados informados
 
     printf("Nome do estado: %s\nCarta: %s\nNome da cidade: %s\n", estado, carta1, cidade);
-    printf ("Populacao: %d\n, Area: %f\n, Pib: %f\n, Pontos turisticos: %d\n", populacao, area, pib, turisticos);
+    printf ("Populacao: %d\nArea: %f\nPib: %f\nPontos turisticos: %d\n", populacao, area, pib, turisticos);
 
      
 
